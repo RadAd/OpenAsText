@@ -21,7 +21,8 @@ public class OpenAsText extends Activity
         }
 		newIntent.setDataAndType(origIntent.getData(), "text/plain");
         newIntent.setFlags(origIntent.getFlags());
-        newIntent.putExtras(origIntent.getExtras());
+        if (origIntent.getExtras() != null)
+            newIntent.putExtras(origIntent.getExtras());
         
         startActivity(newIntent);
 		finish();
