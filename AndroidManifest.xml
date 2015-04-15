@@ -9,6 +9,7 @@
         <activity android:name="OpenAsText"
                   android:label="@string/app_name"
                   android:theme="@android:style/Theme.NoDisplay"
+                  android:excludeFromRecents="true"
                   android:finishOnTaskLaunch="true"
                   android:noHistory="true">
             <intent-filter android:label="@string/app_name">

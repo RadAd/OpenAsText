@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Open As Text</string>
+    <string name="no_text_editor_message">Can\&apos;t find text editor. Please install a text editor such as &lt;a href=&quot;http://play.google.com/store/apps/details?id=au.radsoft&quot;&gt;RadNotepad&lt;/a&gt;</string>
 </resources>
